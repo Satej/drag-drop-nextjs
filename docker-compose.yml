@@ -26,7 +26,6 @@ services:
       - db
     networks:
       - my-network
-    entrypoint: ["/app/entrypoint.sh"]
 
   db:
     image: postgres:alpine
